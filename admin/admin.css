@@ -1,0 +1,129 @@
+/*
+Author: Catbus Passengers;
+Theme: Bakery;
+Version:1.0;
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+   
+   }
+   /*admin panel*/
+.table-full{
+    width: 100%;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
+.table-adm{
+     width: 100%;
+}
+.btn-primary{
+    background-color: #833471;
+    padding: 1%;
+    color: wheat;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: #B53471;
+
+}
+.btn-up{
+    background-color: #009432;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-up:hover{
+    background-color: #A3CB38;
+
+}
+.btn-del{
+    background-color: #EE5A24;
+    padding: 1%;
+    color: wheat;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-del:hover{
+    background-color: #F79F1F;
+
+}
+/* for menu*/
+.menu{
+    text-align: center;
+    border-bottom: 2px solid brown;
+}
+.menu ul{
+    list-style-type: none;
+    
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color:brown;
+    
+}
+.menu ul li a:hover{
+    color:chocolate;
+}
+.clearfix{
+    float:none;
+    clear:both;
+}
+
+/*main content*/
+.main-content{
+background-color:#ffda79;
+padding: 3% 0;
+}
+.col-4{
+    text-align: center;
+    width:19%;
+    background-color: cornsilk;
+    margin: 1%;
+    padding: 2%;
+    float:left;
+}
+
+/* footer section*/
+.footer{
+    background-color: #f19066;
+    color:#303952;
+}
+/* login */
+.login{
+    background-image: url(../images/logbox.jpg);
+    background-size: 100%;
+    border: 1px solid grey;
+    width: 30%;
+    margin: 10% auto;
+    padding: 2%;
+
+}
+.l-body{
+    background-image: url(../images/bg-login.jpg);
+    background-size: cover;
+    background-position:top;
+}
